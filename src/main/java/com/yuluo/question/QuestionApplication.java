@@ -12,7 +12,6 @@ import javax.servlet.Filter;
 public class QuestionApplication {
 	
 	
-	
 	@Bean
 	public FilterRegistrationBean filterRegistrationBean() {
 		FilterRegistrationBean<Filter> filterFilterRegistrationBean = new FilterRegistrationBean<>();
